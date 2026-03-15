@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="devBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#c8e6c9"/>
+    </linearGradient>
+    <linearGradient id="buildingGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e0e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#devBg)"/>
+  <!-- Sky -->
+  <rect y="0" width="800" height="320" fill="#d6eaff"/>
+  <!-- Clouds -->
+  <ellipse cx="150" cy="80" rx="70" ry="30" fill="white" opacity="0.9"/>
+  <ellipse cx="200" cy="70" rx="55" ry="25" fill="white" opacity="0.9"/>
+  <ellipse cx="600" cy="100" rx="80" ry="32" fill="white" opacity="0.85"/>
+  <ellipse cx="660" cy="90" rx="60" ry="28" fill="white" opacity="0.85"/>
+  <!-- Ground -->
+  <rect y="400" width="800" height="200" fill="#4CAF50" opacity="0.5"/>
+  <rect y="430" width="800" height="170" fill="#388E3C" opacity="0.4"/>
+  <!-- Road -->
+  <rect x="320" y="380" width="160" height="220" fill="#757575" opacity="0.6"/>
+  <rect x="394" y="380" width="12" height="220" fill="white" stroke-dasharray="20 10" opacity="0.7"/>
+  <!-- Modern school building -->
+  <rect x="80" y="200" width="260" height="200" fill="url(#buildingGrad)" stroke="#0B3D91" stroke-width="2"/>
+  <rect x="80" y="200" width="260" height="30" fill="#0B3D91"/>
+  <text x="210" y="221" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">IJEBU IGBO SCHOOL</text>
+  <!-- Windows -->
+  <rect x="100" y="250" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="160" y="250" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="220" y="250" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="280" y="250" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="100" y="305" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="160" y="305" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="220" y="305" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="280" y="305" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <!-- School door -->
+  <rect x="185" y="355" width="50" height="45" fill="#5c3a1e" rx="2"/>
+  <rect x="192" y="362" width="16" height="30" fill="#8B5E3C"/>
+  <rect x="212" y="362" width="16" height="30" fill="#8B5E3C"/>
+  <!-- Modern clinic building -->
+  <rect x="460" y="210" width="260" height="190" fill="url(#buildingGrad)" stroke="#0B3D91" stroke-width="2"/>
+  <rect x="460" y="210" width="260" height="30" fill="#C9A227"/>
+  <text x="590" y="231" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">COMMUNITY HEALTH CENTRE</text>
+  <!-- Red cross -->
+  <rect x="580" y="155" width="20" height="55" fill="#cc0000"/>
+  <rect x="565" y="172" width="50" height="20" fill="#cc0000"/>
+  <!-- Clinic windows -->
+  <rect x="480" y="260" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="540" y="260" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="600" y="260" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="660" y="260" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="480" y="315" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="540" y="315" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="600" y="315" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <rect x="660" y="315" width="45" height="35" fill="#a8d4f5" stroke="#0B3D91" stroke-width="1.5"/>
+  <!-- Clinic door -->
+  <rect x="565" y="355" width="50" height="45" fill="#5c3a1e" rx="2"/>
+  <!-- Trees -->
+  <ellipse cx="40" cy="380" rx="30" ry="50" fill="#2d8a1a"/>
+  <rect x="36" y="415" width="8" height="45" fill="#5c3a1e"/>
+  <ellipse cx="755" cy="380" rx="30" ry="50" fill="#2d8a1a"/>
+  <rect x="751" y="415" width="8" height="45" fill="#5c3a1e"/>
+  <!-- Caption -->
+  <rect x="0" y="500" width="800" height="100" fill="#0B3D91" opacity="0.85"/>
+  <text x="400" y="542" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Community Development Projects</text>
+  <text x="400" y="568" font-family="Arial, sans-serif" font-size="16" fill="#C9A227" text-anchor="middle">Education • Healthcare • Infrastructure</text>
+  <text x="400" y="590" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" opacity="0.7">Funded by Ijebu Igbo Descendants in Diaspora</text>
+</svg>

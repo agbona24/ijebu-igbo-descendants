@@ -59,11 +59,10 @@ export default function About() {
           >
             <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800&q=80"
+                src="/images/community-gathering.svg"
                 alt="Ijebu Igbo community gathering"
                 fill
                 className="object-cover"
-                unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B3D91]/30 to-transparent" />
             </div>

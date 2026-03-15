@@ -10,12 +10,11 @@ export default function Hero() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=1920&q=80"
+          src="/images/hero-bg.svg"
           alt="Ijebu Igbo cultural landscape"
           fill
           className="object-cover object-center"
           priority
-          unoptimized
         />
         {/* Deep gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#0B3D91]/90 via-[#0B3D91]/75 to-[#000000]/60" />
