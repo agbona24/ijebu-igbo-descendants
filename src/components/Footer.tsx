@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const quickLinks = [
   { href: "#about", label: "About Us" },
@@ -67,8 +68,8 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-[#C9A227] flex items-center justify-center text-white font-bold text-lg shadow-md">
-                IID
+              <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 shadow-md">
+                <Image src="/logo.svg" alt="IID Logo" width={48} height={48} className="w-full h-full object-cover" />
               </div>
               <div>
                 <p className="text-white font-bold text-base leading-tight">

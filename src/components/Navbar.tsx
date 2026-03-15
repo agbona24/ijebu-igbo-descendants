@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#about", label: "About" },
@@ -37,8 +38,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-[#C9A227] flex items-center justify-center text-white font-bold text-lg shadow-md group-hover:scale-110 transition-transform">
-              IID
+            <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0 shadow-md group-hover:scale-110 transition-transform">
+              <Image src="/logo.svg" alt="IID Logo" width={40} height={40} className="w-full h-full object-cover" />
             </div>
             <div className="hidden sm:block">
               <p className="text-white font-bold text-sm leading-tight">

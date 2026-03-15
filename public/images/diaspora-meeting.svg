@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="meetingBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B3D91"/>
+      <stop offset="100%" stop-color="#072360"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#meetingBg)"/>
+  <!-- Conference table -->
+  <ellipse cx="400" cy="350" rx="280" ry="100" fill="#3d2800" stroke="#C9A227" stroke-width="3"/>
+  <ellipse cx="400" cy="350" rx="265" ry="88" fill="#5c3a1e"/>
+  <!-- Table surface reflection -->
+  <ellipse cx="400" cy="350" rx="250" ry="80" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <!-- IID flag/banner on table -->
+  <rect x="390" y="280" width="4" height="70" fill="#C9A227"/>
+  <polygon points="394,280 440,293 394,306" fill="#C9A227"/>
+  <text x="418" y="298" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#0B3D91">IID</text>
+  <!-- Meeting attendees silhouettes -->
+  <!-- Top of table -->
+  <ellipse cx="240" cy="255" rx="22" ry="26" fill="#2c1a00"/>
+  <rect x="218" y="280" width="44" height="45" rx="4" fill="#C9A227"/>
+  <ellipse cx="320" cy="250" rx="22" ry="26" fill="#3d2200"/>
+  <rect x="298" y="275" width="44" height="45" rx="4" fill="#0B3D91"/>
+  <ellipse cx="400" cy="248" rx="22" ry="26" fill="#2c1a00"/>
+  <rect x="378" y="273" width="44" height="45" rx="4" fill="#C9A227"/>
+  <ellipse cx="480" cy="250" rx="22" ry="26" fill="#3d2200"/>
+  <rect x="458" y="275" width="44" height="45" rx="4" fill="#0B3D91"/>
+  <ellipse cx="560" cy="255" rx="22" ry="26" fill="#2c1a00"/>
+  <rect x="538" y="280" width="44" height="45" rx="4" fill="#C9A227"/>
+  <!-- Bottom of table -->
+  <ellipse cx="240" cy="445" rx="22" ry="26" fill="#3d2200"/>
+  <rect x="218" y="420" width="44" height="45" rx="4" fill="#0B3D91"/>
+  <ellipse cx="320" cy="450" rx="22" ry="26" fill="#2c1a00"/>
+  <rect x="298" y="425" width="44" height="45" rx="4" fill="#C9A227"/>
+  <ellipse cx="480" cy="450" rx="22" ry="26" fill="#3d2200"/>
+  <rect x="458" y="425" width="44" height="45" rx="4" fill="#0B3D91"/>
+  <ellipse cx="560" cy="445" rx="22" ry="26" fill="#2c1a00"/>
+  <rect x="538" y="420" width="44" height="45" rx="4" fill="#C9A227"/>
+  <!-- Laptops/documents on table -->
+  <rect x="230" y="325" width="35" height="25" rx="2" fill="#1a1a2e" stroke="#C9A227" stroke-width="1"/>
+  <rect x="350" y="320" width="35" height="25" rx="2" fill="#1a1a2e" stroke="#C9A227" stroke-width="1"/>
+  <rect x="470" y="325" width="35" height="25" rx="2" fill="#1a1a2e" stroke="#C9A227" stroke-width="1"/>
+  <!-- Water glasses -->
+  <rect x="290" y="330" width="12" height="18" rx="2" fill="#a8d4f5" opacity="0.7"/>
+  <rect x="430" y="330" width="12" height="18" rx="2" fill="#a8d4f5" opacity="0.7"/>
+  <!-- Wall projection screen -->
+  <rect x="200" y="80" width="400" height="130" fill="#f0f0f0" rx="4"/>
+  <rect x="210" y="90" width="380" height="110" fill="#0B3D91"/>
+  <text x="400" y="138" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">IID Annual General Meeting</text>
+  <text x="400" y="162" font-family="Arial, sans-serif" font-size="14" fill="#C9A227" text-anchor="middle">Strategy • Unity • Development</text>
+  <!-- Caption -->
+  <rect x="0" y="510" width="800" height="90" fill="#C9A227" opacity="0.9"/>
+  <text x="400" y="550" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#0B3D91" text-anchor="middle">Diaspora Leadership Meeting</text>
+  <text x="400" y="576" font-family="Arial, sans-serif" font-size="15" fill="#0B3D91" text-anchor="middle" opacity="0.85">Global representatives united for Ijebu Igbo</text>
+</svg>

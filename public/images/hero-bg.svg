@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B3D91"/>
+      <stop offset="60%" stop-color="#1a56b0"/>
+      <stop offset="100%" stop-color="#2d6fd4"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d5a1b"/>
+      <stop offset="100%" stop-color="#1a3a10"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#e8c040"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#skyGrad)"/>
+  <!-- Ground -->
+  <rect y="580" width="1200" height="220" fill="url(#groundGrad)"/>
+  <!-- Sun glow -->
+  <circle cx="600" cy="300" r="120" fill="#C9A227" opacity="0.12"/>
+  <circle cx="600" cy="300" r="70" fill="#C9A227" opacity="0.18"/>
+  <circle cx="600" cy="300" r="40" fill="#e8c040" opacity="0.4"/>
+  <!-- Traditional building silhouette -->
+  <rect x="460" y="380" width="280" height="200" fill="#0a2a5e" opacity="0.9"/>
+  <polygon points="460,380 600,260 740,380" fill="#0a2a5e" opacity="0.9"/>
+  <!-- Building decoration -->
+  <rect x="520" y="430" width="60" height="150" fill="#0B3D91"/>
+  <rect x="620" y="430" width="60" height="150" fill="#0B3D91"/>
+  <!-- Windows -->
+  <rect x="530" y="440" width="40" height="50" fill="#C9A227" opacity="0.6"/>
+  <rect x="630" y="440" width="40" height="50" fill="#C9A227" opacity="0.6"/>
+  <!-- Gold banner/flag -->
+  <rect x="595" y="230" width="4" height="80" fill="#C9A227"/>
+  <polygon points="599,230 640,245 599,260" fill="#C9A227"/>
+  <!-- Trees left -->
+  <ellipse cx="200" cy="520" rx="80" ry="120" fill="#1a4a0a" opacity="0.85"/>
+  <ellipse cx="280" cy="540" rx="60" ry="100" fill="#1e5810" opacity="0.8"/>
+  <rect x="192" y="580" width="16" height="80" fill="#3d2800"/>
+  <rect x="272" y="585" width="14" height="75" fill="#3d2800"/>
+  <!-- Trees right -->
+  <ellipse cx="1000" cy="520" rx="80" ry="120" fill="#1a4a0a" opacity="0.85"/>
+  <ellipse cx="920" cy="540" rx="60" ry="100" fill="#1e5810" opacity="0.8"/>
+  <rect x="992" y="580" width="16" height="80" fill="#3d2800"/>
+  <rect x="912" y="585" width="14" height="75" fill="#3d2800"/>
+  <!-- People silhouettes -->
+  <ellipse cx="380" cy="560" rx="18" ry="22" fill="#0a1a3a"/>
+  <rect x="372" y="582" width="16" height="35" fill="#0a1a3a"/>
+  <ellipse cx="430" cy="555" rx="18" ry="22" fill="#0a1a3a"/>
+  <rect x="422" y="577" width="16" height="40" fill="#0a1a3a"/>
+  <ellipse cx="770" cy="560" rx="18" ry="22" fill="#0a1a3a"/>
+  <rect x="762" y="582" width="16" height="35" fill="#0a1a3a"/>
+  <ellipse cx="820" cy="555" rx="18" ry="22" fill="#0a1a3a"/>
+  <rect x="812" y="577" width="16" height="40" fill="#0a1a3a"/>
+  <!-- Stars -->
+  <circle cx="150" cy="80" r="2" fill="white" opacity="0.7"/>
+  <circle cx="300" cy="50" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="900" cy="70" r="2" fill="white" opacity="0.7"/>
+  <circle cx="1050" cy="40" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="500" cy="30" r="1.5" fill="white" opacity="0.5"/>
+  <circle cx="750" cy="60" r="2" fill="white" opacity="0.6"/>
+  <!-- Text overlay -->
+  <rect x="0" y="680" width="1200" height="120" fill="#0B3D91" opacity="0.7"/>
+  <text x="600" y="740" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">Ijebu Igbo — Our Homeland</text>
+  <text x="600" y="778" font-family="Arial, sans-serif" font-size="22" fill="#C9A227" text-anchor="middle">Ogun State, Nigeria</text>
+</svg>

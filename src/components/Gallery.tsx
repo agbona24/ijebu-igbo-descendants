@@ -6,43 +6,43 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=600&q=80",
+    src: "/images/community-gathering.svg",
     alt: "Ijebu Igbo community gathering",
     caption: "Community Gathering",
     span: "col-span-2 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1581337204873-ef36aa186caa?w=400&q=80",
+    src: "/images/homeland-landscape.svg",
     alt: "Nigerian cultural landscape",
     caption: "Homeland Views",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=400&q=80",
+    src: "/images/ojude-oba-festival.svg",
     alt: "Cultural festival celebrations",
     caption: "Ojude Oba Festival",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1529736576495-1ed4a29ca3b1?w=400&q=80",
+    src: "/images/cultural-attire.svg",
     alt: "Traditional Nigerian attire",
     caption: "Cultural Attire",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?w=400&q=80",
+    src: "/images/diaspora-meeting.svg",
     alt: "African community meeting",
     caption: "Diaspora Meeting",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1469571486292-b53601010376?w=400&q=80",
+    src: "/images/cultural-performance.svg",
     alt: "Cultural performance in Nigeria",
     caption: "Cultural Performance",
     span: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=400&q=80",
+    src: "/images/development-project.svg",
     alt: "Community development project",
     caption: "Development Project",
     span: "",
@@ -94,7 +94,6 @@ export default function Gallery() {
                 alt={img.alt}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
-                unoptimized
               />
               {/* Hover overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B3D91]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">

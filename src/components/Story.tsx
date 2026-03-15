@@ -91,11 +91,10 @@ export default function Story() {
           >
             <div className="relative h-56 rounded-2xl overflow-hidden col-span-2 shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&q=80"
+                src="/images/ojude-oba-festival.svg"
                 alt="Nigerian cultural festival"
                 fill
                 className="object-cover"
-                unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0B3D91]/40 to-transparent" />
               <div className="absolute bottom-3 left-4 text-white text-sm font-semibold">
@@ -104,20 +103,18 @@ export default function Story() {
             </div>
             <div className="relative h-44 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1529736576495-1ed4a29ca3b1?w=400&q=80"
+                src="/images/cultural-attire.svg"
                 alt="Traditional Ijebu cultural attire"
                 fill
                 className="object-cover"
-                unoptimized
               />
             </div>
             <div className="relative h-44 rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?w=400&q=80"
+                src="/images/diaspora-meeting.svg"
                 alt="Community gathering in Nigeria"
                 fill
                 className="object-cover"
-                unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-br from-[#C9A227]/30 to-transparent" />
             </div>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="diasporaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B3D91"/>
+      <stop offset="50%" stop-color="#1a4a9e"/>
+      <stop offset="100%" stop-color="#0a2a6e"/>
+    </linearGradient>
+    <linearGradient id="globeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e5cba"/>
+      <stop offset="100%" stop-color="#0b3080"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#diasporaBg)"/>
+  <!-- Globe -->
+  <circle cx="400" cy="300" r="200" fill="url(#globeGrad)" stroke="#C9A227" stroke-width="2" opacity="0.9"/>
+  <!-- Globe grid lines -->
+  <ellipse cx="400" cy="300" rx="100" ry="200" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="400" cy="300" rx="160" ry="200" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="400" cy="300" rx="200" ry="80" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="400" cy="300" rx="200" ry="140" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#C9A227" stroke-width="1" opacity="0.3"/>
+  <!-- Nigeria location marker -->
+  <circle cx="430" cy="330" r="12" fill="#C9A227"/>
+  <circle cx="430" cy="330" r="7" fill="white"/>
+  <circle cx="430" cy="330" r="4" fill="#C9A227"/>
+  <!-- Connection lines to diaspora points -->
+  <line x1="430" y1="330" x2="220" y2="200" stroke="#C9A227" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <line x1="430" y1="330" x2="300" y2="180" stroke="#C9A227" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <line x1="430" y1="330" x2="540" y2="190" stroke="#C9A227" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <line x1="430" y1="330" x2="580" y2="250" stroke="#C9A227" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <line x1="430" y1="330" x2="350" y2="420" stroke="#C9A227" stroke-width="1.5" opacity="0.6" stroke-dasharray="4 3"/>
+  <!-- Diaspora location dots -->
+  <circle cx="220" cy="200" r="8" fill="#C9A227" opacity="0.8"/>
+  <circle cx="300" cy="180" r="8" fill="#C9A227" opacity="0.8"/>
+  <circle cx="540" cy="190" r="8" fill="#C9A227" opacity="0.8"/>
+  <circle cx="580" cy="250" r="8" fill="#C9A227" opacity="0.8"/>
+  <circle cx="350" cy="420" r="8" fill="#C9A227" opacity="0.8"/>
+  <!-- Location labels -->
+  <text x="200" y="192" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.8">UK</text>
+  <text x="300" y="172" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.8">USA</text>
+  <text x="556" y="183" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.8">UAE</text>
+  <text x="596" y="243" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.8">Asia</text>
+  <text x="334" y="434" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.8">SA</text>
+  <text x="446" y="318" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" opacity="0.9">NG</text>
+  <!-- Outer glow -->
+  <circle cx="400" cy="300" r="210" fill="none" stroke="#C9A227" stroke-width="1" opacity="0.2"/>
+  <circle cx="400" cy="300" r="225" fill="none" stroke="#C9A227" stroke-width="0.5" opacity="0.15"/>
+  <!-- Title -->
+  <text x="400" y="560" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#C9A227" text-anchor="middle">Global Diaspora Network</text>
+  <text x="400" y="585" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" opacity="0.75">50+ Countries • One Community</text>
+</svg>
